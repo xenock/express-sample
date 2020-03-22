@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mi polla</title>
+    </head>
+    <body>
+        <h1>Hola</h1>
+        <script>
+         const url = 'http://localhost:3000/data'
+         fetch(url)
+             .then((response) => {
+                 return response.json();
+             })
+             .then((data) => {
+                 console.log(data);
+             });
+        </script>
+    </body>
+</html>
